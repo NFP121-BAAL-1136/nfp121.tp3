@@ -24,11 +24,11 @@ package question2;
  *          engagements, et suivi d'un appel Ã  tearDown(), qui les dÃ©truit.
  */
 public class Pile4Test extends junit.framework.TestCase {
-	// DÃ©finissez ici les variables d'instance nÃ©cessaires Ã  vos engagements;
-	// Vous pouvez Ã©galement les saisir automatiquement du prÃ©sentoir
-	// Ã  l'aide du menu contextuel "PrÃ©sentoir --> Engagements".
+	// Définissez ici les variables d'instance nécessaires à vos engagements;
+	// Vous pouvez également les saisir automatiquement du présentoir
+	// à l'aide du menu contextuel "Présentoir --> Engagements".
 	// Notez cependant que ce dernier ne peut saisir les objets primitifs
-	// du prÃ©sentoir (les objets sans constructeur, comme int, float, etc.).
+	// du présentoir (les objets sans constructeur, comme int, float, etc.).
 
 	/**
 	 * Constructeur de la classe-test Pile4Test
@@ -39,7 +39,7 @@ public class Pile4Test extends junit.framework.TestCase {
 	/**
 	 * Met en place les engagements.
 	 * 
-	 * MÃ©thode appelÃ©e avant chaque appel de mÃ©thode de test.
+	 * Méthode appelée avant chaque appel de méthode de test.
 	 */
 	protected void setUp() // throws java.lang.Exception
 	{
@@ -50,11 +50,11 @@ public class Pile4Test extends junit.framework.TestCase {
 	/**
 	 * Supprime les engagements
 	 * 
-	 * MÃ©thode appelÃ©e aprÃ¨s chaque appel de mÃ©thode de test.
+	 * Méthode appelée après chaque appel de méthode de test.
 	 */
 	protected void tearDown() // throws java.lang.Exception
 	{
-		// LibÃ©rez ici les ressources engagÃ©es par setUp()
+		// Libérez ici les ressources engagées par setUp()
 	}
 
 }
